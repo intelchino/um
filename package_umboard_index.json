@@ -1,0 +1,49 @@
+{
+	"packages":[{
+		"name": "um",
+		"maintainer": "VEriKsystems",
+		"websiteURL": "http://veriksystems.com",
+		"email": "support@veriksystems.com",
+		"help": {
+			"online": "http://veriksystems.com"
+		},
+		"platforms":[{
+			"name": "Ultra Modem Development board",
+			"architecture": "xmega",
+			"version": "1.0.0",
+			"category": "Ultra Modem",
+			"url": "https://www.dropbox.com/s/9981gilyz9w4ve9/um-1.0.0.zip?dl=1",
+			"archiveFileName": "um-1.0.0.zip",
+			"checksum":"SHA-256:e6f0fdb5de9c41dfb2ec5274d67d8307c5dec2b00de33eb295ebe096031bc0fb",
+			"size": "316772",
+			"boards":[{
+				"name": "UM 128A1 Board"
+			}, {
+				"name": "UM 128A4U Board"
+			}],
+			"toolsDependencies":[{
+				"packager":"um",
+				"name": "dfu-programmer",
+				"version": "0.7.2"
+			}]
+		}],
+		"tools":[{
+			"name": "dfu-programmer",
+			"version": "0.7.2",
+			"systems":[{
+				"host": "x86_64-linux-gnu",
+				"url": "https://www.dropbox.com/s/svwgfvm4y22s0wo/dfu-programmer-0.7.2.zip?dl=1",
+				"archiveFileName": "dfu-programmer-0.7.2.zip",
+				"checksum": "SHA-256:cbc0ea764509f548cd589e4bec4ddab418a4fd710d06c7082438e3c641a8b7e2",
+				"size": "713391"
+			}, {
+				"host": "i686-mingw32",
+				"url": "https://www.dropbox.com/s/svwgfvm4y22s0wo/dfu-programmer-0.7.2.zip?dl=1",
+				"archiveFileName": "dfu-programmer-0.7.2.zip",
+				"checksum": "SHA-256:cbc0ea764509f548cd589e4bec4ddab418a4fd710d06c7082438e3c641a8b7e2",
+				"size": "713391"
+			}]
+		}]
+	}]
+}
+
