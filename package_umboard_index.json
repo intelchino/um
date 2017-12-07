@@ -20,6 +20,8 @@
 				"name": "UM 128A1 Board"
 			}, {
 				"name": "UM 128A4U Board"
+			}, {
+				"name": "UM 128A3U Board"
 			}],
 			"toolsDependencies":[{
 				"packager":"um",
